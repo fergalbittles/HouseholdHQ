@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend service for student house share web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage --testTimeout=10000",
+    "start": "nodemon server.js"
+  },
+  "author": "Fergal Bittles <fergalbittles@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.1",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
+  }
+}
